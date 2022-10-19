@@ -1,0 +1,75 @@
+.form-label{
+  font-weight: 500;
+  color: rgb(202, 133, 4);
+}
+
+.singleAmenity input[type=text]{
+  height: 30px;
+  margin-left: 10px;
+  width: calc(100% - 205px);
+}
+.singleAmenity button{
+  height: 30px;
+  margin-left: 10px;
+  width: 150px;
+}
+.singleAmenity .remove-amenity{
+  height: 30px;
+  margin-left: 5px;
+  width: 20px;
+}
+.singleAmenity input[type=checkbox]{
+  width: 24px;
+  height: 24px;
+}
+
+.singleAmenity{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+
+#test{
+  display: flex;
+  flex-direction: column;
+}
+
+.txtarea{
+  min-height: 100px;
+}
+
+.picker-container{
+    position: absolute;
+    top: 40px;
+    z-index: 20;
+}
+.pick-date-ui:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+
+.pick-date{
+    min-width: 100px;
+    background-color: white;
+    height: 30px;
+    cursor: context-menu;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: none;
+}
+
+.print-area{
+    height: 100%;
+}
+
+
+.thead {
+    background-color: rgba(126, 156, 234, 0.22);
+}
